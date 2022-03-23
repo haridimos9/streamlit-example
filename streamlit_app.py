@@ -6,6 +6,8 @@ import streamlit as st
 
 """
 # Welcome to Streamlit!
+Hello People! It's me Marrio. I am going to save the princess now
+See you later
 
 Edit `/streamlit_app.py` to customize this app to your heart's desire :heart:
 
@@ -14,7 +16,7 @@ forums](https://discuss.streamlit.io).
 
 In the meantime, below is an example of what you can do with just a few lines of code:
 """
-print("hello world! It's me Marrio")
+#print("hello world! It's me Marrio")
 
 with st.echo(code_location='below'):
     total_points = st.slider("Number of points in spiral", 1, 5000, 2000)
